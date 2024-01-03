@@ -56,14 +56,14 @@ const Education = () => {
             type="Intermediate"
             time="2020"
             place="Kendriya Vidyalaya No.1 Jalandhar cantt"
-            info="Central Board of Secondary Education (CBSE)"
+            info="Central Board Of Secondary Education(CBSE)"
 
             />
             <Details
             type="Matriculate"
             time="2018"
             place="Army Primary School Sri Ganganagar"
-            info="Central Board of Secondary Education (CBSE)"
+            info="Central Board Of Secondary Education(CBSE)"
 
             />
             

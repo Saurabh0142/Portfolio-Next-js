@@ -6,6 +6,7 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import project1 from "../../public/images/projects/webpage.png"
+import project2 from "../../public/images/projects/projectpic.jpg"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -125,12 +126,12 @@ const project = () => {
             </div>
             <div className='col-span-6 sm:col-span-12'>
             <Project 
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
+                title="LPG Leakage Detector using Arduino With SMS Alert"
+                img={project2}
+                summary="The project entiled “LPG Leakage Detector using Arduino with SMS Alert and Sound Alarm”, 
+                will be a great help in terms of prevenƟng any danger caused by gas leakage. The purpose of 
+                this project is to detect the presence of LPG leakage as a part of a safety system."
+                link="https://youtu.be/ujdjXRdETBI?si=3_4dyfX1eRlr34Kp"
                 github={'https://github.com/Saurabh0142'}
                 type="FeaturedProject"
                 
