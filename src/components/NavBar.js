@@ -82,21 +82,21 @@ const NavBar = () => {
                 <TwitterIcon/>
             </motion.a>
 
-            <motion.a href="https://twitter.com" target={"_blank"} whileHover={{y:-2}}
+            <motion.a href="https://github.com/Saurabh0142" target={"_blank"} whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             className='w-6 mx-3'>
                 <GithubIcon/>
             </motion.a>
 
-            <motion.a href="https://twitter.com" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}}
+            <motion.a href="https://www.linkedin.com/in/saurabh-826b6b246/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}}
             className='w-6 mx-3'><LinkedInIcon/>
             </motion.a>
 
-            <motion.a href="https://twitter.com" target={"_blank"}  whileHover={{y:-2}} whileTap={{scale:0.9}}
+            <motion.a href="/" target={"_blank"}  whileHover={{y:-2}} whileTap={{scale:0.9}}
             className='w-6 mx-3 bg-light rounded-full my-0.5'><PinterestIcon/>
             </motion.a>
 
-            <motion.a href="https://twitter.com" target={"_blank"}  whileHover={{y:-2}} whileTap={{scale:0.9}}
+            <motion.a href="/" target={"_blank"}  whileHover={{y:-2}} whileTap={{scale:0.9}}
             className='w-6 ml-3'><DribbbleIcon/>
             </motion.a>
 
@@ -136,28 +136,30 @@ const NavBar = () => {
         
         
         <nav className='flex item-center justify-center  flex-wrap mt-2'>
-            <motion.a href="https://twitter.com" target={"_blank"}
+            <motion.a href="/" target={"_blank"}
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             className='w-6 mr-3 sm:mx-1'>
                 <TwitterIcon/>
             </motion.a>
 
-            <motion.a href="https://twitter.com" target={"_blank"} whileHover={{y:-2}}
+            <motion.a 
+            href="https://github.com/Saurabh0142" 
+            target="_blank" whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             className='w-6 mx-3 bg-light rounded-full dark:bg-dark my-0.5 sm:mx-1'>
                 <GithubIcon/>
             </motion.a>
 
-            <motion.a href="https://twitter.com" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}}
+            <motion.a href="https://www.linkedin.com/in/saurabh-826b6b246/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}}
             className='w-6 mx-3 sm:mx-1'><LinkedInIcon/>
             </motion.a>
 
-            <motion.a href="https://twitter.com" target={"_blank"}  whileHover={{y:-2}} whileTap={{scale:0.9}}
+            <motion.a href="/" target={"_blank"}  whileHover={{y:-2}} whileTap={{scale:0.9}}
             className='w-6 mx-3 bg-light rounded-full my-0.5 sm:mx-1'><PinterestIcon/>
             </motion.a>
 
-            <motion.a href="https://twitter.com" target={"_blank"}  whileHover={{y:-2}} whileTap={{scale:0.9}}
+            <motion.a href="/" target={"_blank"}  whileHover={{y:-2}} whileTap={{scale:0.9}}
             className='w-6 ml-3 sm:mx-1'><DribbbleIcon/>
             </motion.a>
 

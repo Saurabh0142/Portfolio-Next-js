@@ -5,7 +5,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import project1 from "../../public/images/projects/webpage.png"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -109,13 +109,14 @@ const project = () => {
             <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
             <div className='col-span-12'>
                 <FeaturedProject 
-                title="Crypto Screener Application"
+                title="Portfolio Websites with NextJS"
                 img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
-                github={'/'}
+                summary="Developed a professional portfolio website using cutting-edge web
+                technologies to showcase my skills, projects, and achievements.•Leveraging the power of Next.js, Tailwind CSS, and Framer Motion, I created an
+                immersive and dynamic user experience.                
+                "
+                link="https://master--courageous-jalebi-cc3901.netlify.app/"
+                github={'https://github.com/Saurabh0142'}
                 type="FeaturedProject"
                 
                 
@@ -130,7 +131,7 @@ const project = () => {
                 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                 local currency."
                 link="/"
-                github={'/'}
+                github={'https://github.com/Saurabh0142'}
                 type="FeaturedProject"
                 
                 
@@ -145,7 +146,7 @@ const project = () => {
                 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                 local currency."
                 link="/"
-                github={'/'}
+                github={'https://github.com/Saurabh0142'}
                 type="FeaturedProject"
                 
                 
@@ -153,7 +154,7 @@ const project = () => {
                 />
             </div>
             <div className='col-span-12'>
-            <FeaturedProject 
+            {/* <FeaturedProject 
                 title="Crypto Screener Application"
                 img={project1}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
@@ -195,7 +196,7 @@ const project = () => {
                 
                 
                 
-                />
+                /> */}
             </div>
 
 

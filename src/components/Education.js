@@ -10,6 +10,7 @@ const Details=({type,time ,place ,info})=>{
         initial={{y:50}}
         whileInView={{y:0}}
         transition={{duration:0.5 ,type:"spring"}}
+        style={{ display: 'flex', flexDirection: 'column', alignItems: 'start' }}
         >
             <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>{type}</h3>
             <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
@@ -44,26 +45,29 @@ const Education = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details
+            className="!translate-x-80"
             type="Btech"
             time="2021-Present"
             place="Dr BR Ambedhkar National institute of techonology Jalandhar"
             info="Instrumentation And Control Engineering "
+
+            />
+            <Details 
+            type="Intermediate"
+            time="2020"
+            place="Kendriya Vidyalaya No.1 Jalandhar cantt"
+            info="Central Board of Secondary Education (CBSE)"
 
             />
             <Details
-            type="Btech"
-            time="2021-Present"
-            place="Dr BR Ambedhkar National institute of techonology Jalandhar"
-            info="Instrumentation And Control Engineering "
+            type="Matriculate"
+            time="2018"
+            place="Army Primary School Sri Ganganagar"
+            info="Central Board of Secondary Education (CBSE)"
 
             />
-            <Details
-            type="Btech"
-            time="2021-Present"
-            place="Dr BR Ambedhkar National institute of techonology Jalandhar"
-            info="Instrumentation And Control Engineering "
-
-            />
+            
+            
             
         </ul>
       </div>
